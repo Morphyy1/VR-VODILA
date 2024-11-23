@@ -1,0 +1,572 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.50f1 (c3db7f8bf9b1) revision 12835711'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16307 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Unity/Car Driving Simulator
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+55090
+Successfully changed project path to: C:/Unity/Car Driving Simulator
+C:/Unity/Car Driving Simulator
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11604]  Target information:
+
+Player connection [11604]  * "[IP] 26.177.72.174 [Port] 0 [Flags] 2 [Guid] 1706163521 [EditorId] 1706163521 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IT67UII) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [11604]  * "[IP] 10.13.71.192 [Port] 0 [Flags] 2 [Guid] 1706163521 [EditorId] 1706163521 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IT67UII) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [11604] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [11604] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 9.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.50f1 (c3db7f8bf9b1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity/Car Driving Simulator/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6614
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008908 seconds.
+- Loaded All Assemblies, in  0.283 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.225 seconds
+Domain Reload Profiling: 507ms
+	BeginReloadAssembly (91ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (102ms)
+		LoadAssemblies (90ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (100ms)
+			TypeCache.Refresh (99ms)
+				TypeCache.ScanAssembly (89ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (226ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (187ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (133ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.552 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.529 seconds
+Domain Reload Profiling: 1079ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (348ms)
+		LoadAssemblies (289ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (107ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (530ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (422ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (318ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 4.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3206 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (55.8 KB). Loaded Objects now: 3808.
+Memory consumption went from 157.1 MB to 157.0 MB.
+Total: 2.947800 ms (FindLiveObjects: 0.214600 ms CreateObjectMapping: 0.131800 ms MarkObjects: 2.487400 ms  DeleteObjects: 0.112900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16200.566911 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_11_night_LOD_1.prefab
+  artifactKey: Guid(b3c1abf16ca6b8f488e670717085e92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_11_night_LOD_1.prefab using Guid(b3c1abf16ca6b8f488e670717085e92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '86bdf0345acb60409f9150d874e920ee') in 0.230699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_07_night_LOD_0.prefab
+  artifactKey: Guid(381a405616540c243bdf0191100cbd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_07_night_LOD_0.prefab using Guid(381a405616540c243bdf0191100cbd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e4f1c0958c218499019c48f39dee9d10') in 1.344120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 224
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_08_day_LOD_1.prefab
+  artifactKey: Guid(bce3556bc12e4c04f8a49b1b5768847a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_08_day_LOD_1.prefab using Guid(bce3556bc12e4c04f8a49b1b5768847a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6a17911021ea289f533f3d18fd7bbc1c') in 0.046233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 372.896977 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_14_night_LOD_1.prefab
+  artifactKey: Guid(59b5192c18f4731418deca5bf82c55f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_14_night_LOD_1.prefab using Guid(59b5192c18f4731418deca5bf82c55f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '52bc1ba10a9e310c9f201dd2c6e11809') in 0.039466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 64
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_15_night_LOD_0.prefab
+  artifactKey: Guid(ce4a4ad42f2d1444e87f4baa781f2929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_15_night_LOD_0.prefab using Guid(ce4a4ad42f2d1444e87f4baa781f2929) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fe2d8e1a4e496e299c50ed34bcbc3c34') in 0.073691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 100
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_20_day_LOD_1.prefab
+  artifactKey: Guid(55a5895330fff1149aa3e5fcaf77d00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_20_day_LOD_1.prefab using Guid(55a5895330fff1149aa3e5fcaf77d00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '334347d55b5597d9050a1ad573f554aa') in 0.055076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_17_night_LOD_1.prefab
+  artifactKey: Guid(eabf2704fc2a4ef44a7534a903e17a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_17_night_LOD_1.prefab using Guid(eabf2704fc2a4ef44a7534a903e17a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '51afc4945b95f304499c0646a4adcdf5') in 0.116627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 102
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_20_day_LOD_0.prefab
+  artifactKey: Guid(0c6c43f077dcae44396f3ba2a89319ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_20_day_LOD_0.prefab using Guid(0c6c43f077dcae44396f3ba2a89319ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd8787776e1d1fc44b0cb8598423ff55f') in 0.047845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 70
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_20_night_LOD_1.prefab
+  artifactKey: Guid(141e9b38ca024a14eb4559a7bdc9b976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_20_night_LOD_1.prefab using Guid(141e9b38ca024a14eb4559a7bdc9b976) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '91440d3b06b8258c41f7ba750df84aa7') in 0.035331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_21_day_LOD_0.prefab
+  artifactKey: Guid(027c4e7cc317d6e42ab6af04bf5f6718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_21_day_LOD_0.prefab using Guid(027c4e7cc317d6e42ab6af04bf5f6718) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a102b6cdb5384a35304df17903b17bf5') in 0.125966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 199
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_18_day_LOD_0.prefab
+  artifactKey: Guid(35ba77f14a371ed4399dba7d128f1aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_18_day_LOD_0.prefab using Guid(35ba77f14a371ed4399dba7d128f1aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5f2f25c5384f3d7ea84808a8202d90d2') in 0.059532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 134
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_19_night_LOD_1.prefab
+  artifactKey: Guid(9650498197460874d922ea6db18289fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_19_night_LOD_1.prefab using Guid(9650498197460874d922ea6db18289fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '190863d29cf87ab0e9d77f77c8f2348d') in 0.040492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 81
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_21_day_LOD_1.prefab
+  artifactKey: Guid(f75ede6f77252f94290a7d0c67631dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_21_day_LOD_1.prefab using Guid(f75ede6f77252f94290a7d0c67631dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'faede627b416646a71b80c92fddb123c') in 0.040689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 98
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_19_day_LOD_1.prefab
+  artifactKey: Guid(a0c78ba3c3f2d6e4da0dec6a98e5e87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_19_day_LOD_1.prefab using Guid(a0c78ba3c3f2d6e4da0dec6a98e5e87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '05aa3b1e31a5c7cf71e1a133122cdf87') in 0.039306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 79
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_15_night_LOD_1.prefab
+  artifactKey: Guid(3ed8c5595291a074aaf64cacc41d8f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_15_night_LOD_1.prefab using Guid(3ed8c5595291a074aaf64cacc41d8f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '089c79c14d4677be09ab35ed83f515a0') in 0.036823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_18_day_LOD_1.prefab
+  artifactKey: Guid(918c0bddb6635224193425446ead7705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_18_day_LOD_1.prefab using Guid(918c0bddb6635224193425446ead7705) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5cae3e60d647b82a174f0f80f7d06242') in 0.049290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 68
+========================================================================
+Received Import Request.
+  Time since last request: 0.088628 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_21_night_LOD_1.prefab
+  artifactKey: Guid(8e8108cd63903c1408fe78e247163cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_21_night_LOD_1.prefab using Guid(8e8108cd63903c1408fe78e247163cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0a02185c91a028b5e153ad6860440dad') in 0.061914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 99
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_22_night_LOD_0.prefab
+  artifactKey: Guid(3742604d0fcecad4c8a286ad5f946304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_22_night_LOD_0.prefab using Guid(3742604d0fcecad4c8a286ad5f946304) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '41269011bf36d923f667f9c5b23dd61b') in 0.059016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 156
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_26_night_LOD_1.prefab
+  artifactKey: Guid(ad4002c5ab0d1ae459ec5f79aabe3778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_26_night_LOD_1.prefab using Guid(ad4002c5ab0d1ae459ec5f79aabe3778) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '821f866dbb6bcc5cb80c05f9be46f3fb') in 0.134382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 146
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_27_day_LOD_1.prefab
+  artifactKey: Guid(d1056897f10ddf04aa2839987eb2e019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_27_day_LOD_1.prefab using Guid(d1056897f10ddf04aa2839987eb2e019) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '552b8cf25bea22b2f640b85aab99865c') in 0.056528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_23_day_LOD_1.prefab
+  artifactKey: Guid(f68db5a7b6271214794bd12092f02bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_23_day_LOD_1.prefab using Guid(f68db5a7b6271214794bd12092f02bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '639261dde2d0a16da851c7080aac08d1') in 0.033447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_27_night_LOD_0.prefab
+  artifactKey: Guid(6cffdb3e432b37e46a6b8843dbfbc545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_27_night_LOD_0.prefab using Guid(6cffdb3e432b37e46a6b8843dbfbc545) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4a2efb59f9a507f8457673e131074e2e') in 0.085653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 103
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_30_day_LOD_1.prefab
+  artifactKey: Guid(513f366e25bb3194b883ef7c9bf90819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_30_day_LOD_1.prefab using Guid(513f366e25bb3194b883ef7c9bf90819) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '77b5b4ec36512ab3ceb6d0ad7cf56141') in 0.033002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_22_night_LOD_1.prefab
+  artifactKey: Guid(fd36a679b77e6334cb266d0bf3a2acf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_22_night_LOD_1.prefab using Guid(fd36a679b77e6334cb266d0bf3a2acf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fa502ffad302120187bf33380ffe99e1') in 0.041521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 109
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_28_day_LOD_0.prefab
+  artifactKey: Guid(ca9fc0552f5430943a631362c8040650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_28_day_LOD_0.prefab using Guid(ca9fc0552f5430943a631362c8040650) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8aa3051e6aa7da3e7337be5fe983ba3b') in 0.107703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 105
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_22_day_LOD_1.prefab
+  artifactKey: Guid(bbabb9c0c25fca8458d6e22943454374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_22_day_LOD_1.prefab using Guid(bbabb9c0c25fca8458d6e22943454374) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '992423f9a69cdf4a6a10032c759874b8') in 0.031200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_30_night_LOD_0.prefab
+  artifactKey: Guid(5df5e0e2d36ec494f93d8e6b6b94e015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_30_night_LOD_0.prefab using Guid(5df5e0e2d36ec494f93d8e6b6b94e015) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '818d7e1d9b8a34056e3dadf9a5aa4b6e') in 0.045720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 117
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_26_day_LOD_1.prefab
+  artifactKey: Guid(054e88dabc0f86743bd7fe4e38f72807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_26_day_LOD_1.prefab using Guid(054e88dabc0f86743bd7fe4e38f72807) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c27c6bc9cf26f5c3d049549043679557') in 0.029297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_26_night_distant.prefab
+  artifactKey: Guid(d4d83b94a3db7594a939a860f0ffbcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_26_night_distant.prefab using Guid(d4d83b94a3db7594a939a860f0ffbcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6234e504c7ae69e40faa4bdb3984bd7a') in 0.044038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_29_night_LOD_0.prefab
+  artifactKey: Guid(7681348ee309e854db48a91ca353140b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_29_night_LOD_0.prefab using Guid(7681348ee309e854db48a91ca353140b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2c054a45f53c4081ee2965d89bee74bc') in 0.052561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 64
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_30_night_LOD_1.prefab
+  artifactKey: Guid(8a6f00648ec4c9f4eaee64e23032360b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_30_night_LOD_1.prefab using Guid(8a6f00648ec4c9f4eaee64e23032360b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bb94b5909da506f12d16cfcdaef86845') in 0.034363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 91
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_28_night_LOD_0.prefab
+  artifactKey: Guid(8391770674fe5974dbd30efde66a92a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_28_night_LOD_0.prefab using Guid(8391770674fe5974dbd30efde66a92a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2fcd8b21ba197c1601a4e855c69eaffb') in 0.101385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 144
+========================================================================
+Received Import Request.
+  Time since last request: 4.751436 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_32_day_LOD_1.prefab
+  artifactKey: Guid(cb8d66b4afec3aa4d90aaf453a4c1d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_32_day_LOD_1.prefab using Guid(cb8d66b4afec3aa4d90aaf453a4c1d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f65893e31eae0692dce2f4bb677456eb') in 0.046336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_35_night_LOD_0.prefab
+  artifactKey: Guid(44348ec28c0cc8c42971a56bbdb1389f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_35_night_LOD_0.prefab using Guid(44348ec28c0cc8c42971a56bbdb1389f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7d18ba3a3a5c41b70bad60871799a22e') in 0.047467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 100
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_33_day_LOD_0.prefab
+  artifactKey: Guid(dfb600e41f92a3147a943d40b39a546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_33_day_LOD_0.prefab using Guid(dfb600e41f92a3147a943d40b39a546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c48d72140b84b2b5c3bfb0013edc069b') in 0.061238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_35_night_LOD_1.prefab
+  artifactKey: Guid(bef4640ecf8da4246bee45e9e420c824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_35_night_LOD_1.prefab using Guid(bef4640ecf8da4246bee45e9e420c824) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e97891c6bb76a8b8b8cd89376d6054b9') in 0.041951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_33_night_LOD_1.prefab
+  artifactKey: Guid(04adadf8138e34a46a069ff93cd9e6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_33_night_LOD_1.prefab using Guid(04adadf8138e34a46a069ff93cd9e6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b506bb6d53e54150091197fd2465224d') in 0.048619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_36_night_LOD_1.prefab
+  artifactKey: Guid(7a1c504059e01224eaa71a9fa4e096a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Builder/MCP/Buildings/- Prefabs/mcp_building_36_night_LOD_1.prefab using Guid(7a1c504059e01224eaa71a9fa4e096a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e7b2736d42e8b710e9b539ad498b8c25') in 0.033970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

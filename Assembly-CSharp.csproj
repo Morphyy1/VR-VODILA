@@ -64,22 +64,136 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\City Builder\MCP\Standard Assets\Water (Pro Only)\Sources\Scripts\Water.cs" />
+    <Compile Include="Assets\City Builder\MCP\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterBase.cs" />
+    <Compile Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\GrayscaleEffect.cs" />
+    <Compile Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\SSAOEffect.cs" />
+    <Compile Include="Assets\City Builder\MCP\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\City Builder\MCP\Standard Assets\Water (Basic)\Sources\Scripts\WaterSimple.cs" />
+    <Compile Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\NoiseEffect.cs" />
+    <Compile Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\VortexEffect.cs" />
+    <Compile Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\ImageEffectBase.cs" />
+    <Compile Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\ImageEffects.cs" />
+    <Compile Include="Assets\City Builder\MCP\scripts\DynamicDOF.cs" />
+    <Compile Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\ColorCorrectionEffect.cs" />
+    <Compile Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\ContrastStretchEffect.cs" />
+    <Compile Include="Assets\City Builder\MCP\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />
+    <Compile Include="Assets\City Builder\MCP\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\MeshContainer.cs" />
+    <Compile Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\TwirlEffect.cs" />
+    <Compile Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\GlowEffect.cs" />
+    <Compile Include="Assets\City Builder\MCP\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\SpecularLighting.cs" />
+    <Compile Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\BlurEffect.cs" />
+    <Compile Include="Assets\City Builder\MCP\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\PlanarReflection.cs" />
+    <Compile Include="Assets\City Builder\MCP\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\GerstnerDisplace.cs" />
+    <Compile Include="Assets\City Builder\MCP\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\Displace.cs" />
+    <Compile Include="Assets\City Builder\MCP\Demo\shaders\Vintage\Vintage.cs" />
+    <Compile Include="Assets\City Builder\MCP\scripts\AdvancedCA.cs" />
+    <Compile Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\MotionBlur.cs" />
     <Compile Include="Assets\Script\CarMove.cs" />
+    <Compile Include="Assets\City Builder\MCP\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterTile.cs" />
+    <Compile Include="Assets\City Builder\MCP\scripts\Filmic.cs" />
+    <Compile Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\SepiaToneEffect.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\EasyRoads3D\lib\DelaunayER.dll" />
-    <None Include="Assets\EasyRoads3D\SRP Support Packages\_Readme.txt" />
-    <None Include="Assets\EasyRoads3D\Resources\custom prefabs\_custom prefabs.txt" />
-    <None Include="Assets\EasyRoads3D\prefab meshes\_custom prefabs.txt" />
-    <None Include="Assets\EasyRoads3D\Quick Start.txt" />
-    <None Include="Assets\EasyRoads3D\lib\EasyRoads3Dv3.dll" />
-    <None Include="Assets\EasyRoads3D\_readme .txt" />
-    <None Include="Assets\EasyRoads3D\shaders\ER Surface.shader" />
-    <None Include="Assets\EasyRoads3D\shaders\ER Road.shader" />
-    <None Include="Assets\EasyRoads3D\shaders\ER Road Transparency.shader" />
-    <None Include="Assets\EasyRoads3D\Resources\dynamic prefabs\dynamic prefabs.txt" />
-    <None Include="Assets\EasyRoads3D\prefab sources\_custom prefabs.txt" />
-    <None Include="Assets\EasyRoads3D\_Release Notes.txt" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+    <None Include="Assets\Road\EasyRoads3D\lib\DelaunayER.dll" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+    <None Include="Assets\Road\EasyRoads3D\SRP Support Packages\_Readme.txt" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+    <None Include="Assets\Road\EasyRoads3D\Resources\custom prefabs\_custom prefabs.txt" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+    <None Include="Assets\Road\EasyRoads3D\prefab meshes\_custom prefabs.txt" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\City Builder\MCP\Demo\shaders\Filmic\Filmic.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+    <None Include="Assets\Road\EasyRoads3D\Quick Start.txt" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ScreenSpaceAmbientObscurance.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Projectors\Guidelines.txt" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\City Builder\MCP\Demo\shaders\glass.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+    <None Include="Assets\Road\EasyRoads3D\lib\EasyRoads3Dv3.dll" />
+    <None Include="Assets\Road\EasyRoads3D\_readme .txt" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+    <None Include="Assets\City Builder\MCP\Demo\shaders\glass_02.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\Road\EasyRoads3D\shaders\ER Surface.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBloom.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+    <None Include="Assets\City Builder\MCP\Demo\shaders\Chromatic\AdvancedCA.shader" />
+    <None Include="Assets\City Builder\MCP\Demo\shaders\Vintage\Vintage.shader" />
+    <None Include="Assets\Road\EasyRoads3D\shaders\ER Road.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\City Builder\MCP\Demo\shaders\Normal-Bumped-DoubleSided.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBlur.shader" />
+    <None Include="Assets\Road\EasyRoads3D\shaders\ER Road Transparency.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+    <None Include="Assets\City Builder\MCP\Demo\shaders\Normal-BumpSpec.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+    <None Include="Assets\Road\EasyRoads3D\Resources\dynamic prefabs\dynamic prefabs.txt" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Skyboxes\_skybox info.txt" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\Road\EasyRoads3D\prefab sources\_custom prefabs.txt" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\City Builder\MCP\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+    <None Include="Assets\Road\EasyRoads3D\_Release Notes.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -415,7 +529,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="DelaunayER">
-      <HintPath>Assets\EasyRoads3D\lib\DelaunayER.dll</HintPath>
+      <HintPath>Assets\Road\EasyRoads3D\lib\DelaunayER.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
@@ -423,7 +537,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="EasyRoads3Dv3">
-      <HintPath>Assets\EasyRoads3D\lib\EasyRoads3Dv3.dll</HintPath>
+      <HintPath>Assets\Road\EasyRoads3D\lib\EasyRoads3Dv3.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
