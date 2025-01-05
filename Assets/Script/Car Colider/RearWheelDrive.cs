@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Unity.VisualScripting;
+using UnityEngine;
 
 public class RearWheelDrive : MonoBehaviour
 {
@@ -21,7 +22,6 @@ public class RearWheelDrive : MonoBehaviour
         {
             var wheel = wheels[i];
 
-            // create wheel shapes only when needed
             if (wheelShape != null)
             {
                 var ws = GameObject.Instantiate(wheelShape);
@@ -32,8 +32,10 @@ public class RearWheelDrive : MonoBehaviour
 
     private void Update()
     {
-        float angle = maxAngle * Input.GetAxis("Horizontal");
-        float inputTorque = maxTorque * Input.GetAxis("Vertical");
+        var angle = maxAngle * Input.GetAxis("Horizontal");
+        var inputTorque = maxTorque * Input.GetAxis("Vertical");
+
+        var drivingMove = DrivingUI.GetCurrentSprite();
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -42,12 +44,16 @@ public class RearWheelDrive : MonoBehaviour
 
         if (isBraking)
             currentTorque = Mathf.Lerp(currentTorque, 0, brakeSmoothTime * Time.deltaTime);
-        else
+        else if (drivingMove == 'D')
             currentTorque = Mathf.Lerp(currentTorque, inputTorque, brakeSmoothTime * Time.deltaTime);
+        else if (drivingMove == 'R')
+            currentTorque = Mathf.Lerp(currentTorque, -inputTorque, brakeSmoothTime * Time.deltaTime);
+        // else
+        //     currentTorque = Mathf.Lerp(currentTorque, inputTorque, brakeSmoothTime * Time.deltaTime);
+        
 
         foreach (var wheel in wheels)
         {
-            // A simple car where front wheels steer while rear ones drive
             if (wheel.transform.localPosition.z > 0)
                 wheel.steerAngle = angle;
 
@@ -60,7 +66,6 @@ public class RearWheelDrive : MonoBehaviour
                 wheel.brakeTorque = isBraking ? brakeTorque : 0;
             }
 
-            // Update visual wheels if any
             if (wheelShape)
             {
                 Quaternion q;
