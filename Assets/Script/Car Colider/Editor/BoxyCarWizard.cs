@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using UnityEditor;
-using System.Collections;
 
 class BoxyCarWizard : EditorWindow {
 	private int axlesCount = 2;

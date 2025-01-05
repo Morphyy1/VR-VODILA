@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
+
 
 [ExecuteInEditMode()]
 public class EasySuspension : MonoBehaviour {
@@ -29,27 +29,8 @@ public class EasySuspension : MonoBehaviour {
 
 			wc.forceAppPointDistance = distance - forceShift;
 
-			// the following line makes sure the spring force at maximum droop is exactly zero
 			if (spring.targetPosition > 0 && setSuspensionDistance)
 				wc.suspensionDistance = wc.sprungMass * Physics.gravity.magnitude / (spring.targetPosition * spring.spring);
 		}
 	}
-
-// uncomment OnGUI to observe how parameters change
-
-/*
-	public void OnGUI()
-	{
-		foreach (WheelCollider wc in GetComponentsInChildren<WheelCollider>()) {
-			GUILayout.Label (string.Format("{0} sprung: {1}, k: {2}, d: {3}", wc.name, wc.sprungMass, wc.suspensionSpring.spring, wc.suspensionSpring.damper));
-		}
-
-		var rb = GetComponent<Rigidbody> ();
-
-		GUILayout.Label ("Inertia: " + rb.inertiaTensor);
-		GUILayout.Label ("Mass: " + rb.mass);
-		GUILayout.Label ("Center: " + rb.centerOfMass);
-	}
-*/
-
 }

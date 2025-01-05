@@ -12051,8 +12051,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 131020169}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 79.91, y: 1.772, z: -113.43}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.38, y: 1.772, z: -139.57}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12063,7 +12063,7 @@ Transform:
   - {fileID: 541382735}
   - {fileID: 2014675053}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &131020174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12076,7 +12076,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0b4ba194e772394b8f1b8a72fe200a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentPos: {x: -1.381381, y: 1.946104, z: -139.935}
 --- !u!114 &131020175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56937,10 +56936,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.42
   m_SuspensionSpring:
-    spring: 21920.25
-    damper: 3507.24
+    spring: 21919.793
+    damper: 3507.1667
     targetPosition: 0.5
-  m_SuspensionDistance: 0.19620001
+  m_SuspensionDistance: 0.1962
   m_ForceAppPointDistance: 0.88
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -98805,10 +98804,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.42
   m_SuspensionSpring:
-    spring: 26781.395
-    damper: 4285.0234
+    spring: 26781.23
+    damper: 4284.997
     targetPosition: 0.5
-  m_SuspensionDistance: 0.19620004
+  m_SuspensionDistance: 0.1962
   m_ForceAppPointDistance: 0.8970001
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -133783,10 +133782,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.42
   m_SuspensionSpring:
-    spring: 28107.906
-    damper: 4497.265
+    spring: 28108.357
+    damper: 4497.3374
     targetPosition: 0.5
-  m_SuspensionDistance: 0.19620001
+  m_SuspensionDistance: 0.1962
   m_ForceAppPointDistance: 0.908
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -198941,7 +198940,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0b4ba194e772394b8f1b8a72fe200a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentPos: {x: -1.381381, y: 1.946104, z: -139.935}
 --- !u!850595691 &1821596216
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -209712,10 +209710,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.42
   m_SuspensionSpring:
-    spring: 23190.434
-    damper: 3710.4695
+    spring: 23190.611
+    damper: 3710.4978
     targetPosition: 0.5
-  m_SuspensionDistance: 0.19620003
+  m_SuspensionDistance: 0.1962
   m_ForceAppPointDistance: 0.90400004
   m_Mass: 20
   m_WheelDampingRate: 0.25

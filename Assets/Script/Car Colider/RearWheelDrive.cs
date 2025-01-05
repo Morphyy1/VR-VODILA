@@ -11,7 +11,8 @@ public class RearWheelDrive : MonoBehaviour
 
     private WheelCollider[] wheels;
     public static bool isBraking = false;
-    private float currentTorque = 0;
+    public static bool isStop = false;
+    public static float currentTorque = 0;
 	
 
     private void Start()
@@ -38,19 +39,19 @@ public class RearWheelDrive : MonoBehaviour
         var drivingMove = DrivingUI.GetCurrentSprite();
 
         if (Input.GetKeyDown(KeyCode.Space))
-        {
             isBraking = !isBraking;
-        }
 
-        if (isBraking)
+        if (Input.GetKey(KeyCode.S))
+            isStop = true;
+        else
+            isStop = false;
+
+        if (isBraking || isStop)
             currentTorque = Mathf.Lerp(currentTorque, 0, brakeSmoothTime * Time.deltaTime);
         else if (drivingMove == 'D')
             currentTorque = Mathf.Lerp(currentTorque, inputTorque, brakeSmoothTime * Time.deltaTime);
         else if (drivingMove == 'R')
             currentTorque = Mathf.Lerp(currentTorque, -inputTorque, brakeSmoothTime * Time.deltaTime);
-        // else
-        //     currentTorque = Mathf.Lerp(currentTorque, inputTorque, brakeSmoothTime * Time.deltaTime);
-        
 
         foreach (var wheel in wheels)
         {
@@ -59,11 +60,11 @@ public class RearWheelDrive : MonoBehaviour
 
             if (wheel.transform.localPosition.z < 0)
             {
-                if (isBraking)
+                if (isBraking || isStop)
                     wheel.brakeTorque = brakeTorque;
                 else
                     wheel.motorTorque = currentTorque;
-                wheel.brakeTorque = isBraking ? brakeTorque : 0;
+                wheel.brakeTorque = isBraking || isStop ? brakeTorque : 0;
             }
 
             if (wheelShape)
@@ -72,7 +73,6 @@ public class RearWheelDrive : MonoBehaviour
                 Vector3 p;
                 wheel.GetWorldPose(out p, out q);
 
-                // Assume that the only child of the wheel collider is the wheel shape
                 Transform shapeTransform = wheel.transform.GetChild(0);
                 shapeTransform.position = p;
                 shapeTransform.rotation = q;
