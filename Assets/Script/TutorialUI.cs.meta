@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c94a0060748f5504f82e9c039dc5814b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - tutorialWindow: {instanceID: 0}
+  - greetingsSprite: {instanceID: 0}
+  - greetingsSprite2: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,413 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.50f1 (c3db7f8bf9b1) revision 12835711'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ru' Physical Memory: 16127 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Max/Desktop/Новая папка (2)/VR-VODILA-VR_GAME_6.0
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51533
+Successfully changed project path to: C:/Users/Max/Desktop/Новая папка (2)/VR-VODILA-VR_GAME_6.0
+C:/Users/Max/Desktop/Новая папка (2)/VR-VODILA-VR_GAME_6.0
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6440]  Target information:
+
+Player connection [6440]  * "[IP] 25.51.126.165 [Port] 0 [Flags] 2 [Guid] 555566124 [EditorId] 555566124 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G2PGOG7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6440]  * "[IP] 192.168.3.2 [Port] 0 [Flags] 2 [Guid] 555566124 [EditorId] 555566124 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G2PGOG7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6440] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6440] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 44.16 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.50f1 (c3db7f8bf9b1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Max/Desktop/Новая папка (2)/VR-VODILA-VR_GAME_6.0/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8024 MB
+    Driver:   32.0.15.6603
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016697 seconds.
+- Loaded All Assemblies, in  0.302 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.190 seconds
+Domain Reload Profiling: 487ms
+	BeginReloadAssembly (113ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (95ms)
+		LoadAssemblies (108ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (93ms)
+			TypeCache.Refresh (92ms)
+				TypeCache.ScanAssembly (83ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (190ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (159ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (102ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.763 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.636 seconds
+Domain Reload Profiling: 1386ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (540ms)
+		LoadAssemblies (440ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (138ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (636ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (535ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (295ms)
+			ProcessInitializeOnLoadMethodAttributes (115ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 45.10 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6505 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 98 unused Assets / (0.8 MB). Loaded Objects now: 7070.
+Memory consumption went from 267.4 MB to 266.6 MB.
+Total: 5.318800 ms (FindLiveObjects: 1.007800 ms CreateObjectMapping: 0.333300 ms MarkObjects: 3.443000 ms  DeleteObjects: 0.533700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7287.569533 seconds.
+  path: Assets/Texture Car/Demo Assets
+  artifactKey: Guid(ff2d3ed0ac1d8f24fa854261cd148687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture Car/Demo Assets using Guid(ff2d3ed0ac1d8f24fa854261cd148687) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7233628dbfc8d7c8ba7397034bfa9c66') in 0.003523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Texture Car/Materials
+  artifactKey: Guid(2a89562ccd418db40a3e51791468a2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture Car/Materials using Guid(2a89562ccd418db40a3e51791468a2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cd12c98d46fe835d52c8088e69650932') in 0.000964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Texture Car/Demo Assets/GroundMaterial.mat
+  artifactKey: Guid(595dd5aee4a95634385fd1fbf7216b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture Car/Demo Assets/GroundMaterial.mat using Guid(595dd5aee4a95634385fd1fbf7216b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e90c660ba4425d8e2c7b02b6bb5f9c7c') in 0.121537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 54.730177 seconds.
+  path: Assets/Texture Car/Car Model No.1201 Asset/Prefab/Car 2.prefab
+  artifactKey: Guid(7ecf74b289b28f246bfea1ee3e275c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture Car/Car Model No.1201 Asset/Prefab/Car 2.prefab using Guid(7ecf74b289b28f246bfea1ee3e275c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8b62c48ddf98786eed2178d55084d499') in 0.066660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 227
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Texture Car/Car Model No.1201 Asset/Prefab/Car_NO.1201.prefab
+  artifactKey: Guid(8e4300b7bafcc74418f53c67ca571e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture Car/Car Model No.1201 Asset/Prefab/Car_NO.1201.prefab using Guid(8e4300b7bafcc74418f53c67ca571e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2cc5babfa4c33a43b7502b19b45a7705') in 0.021193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 109
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Texture Car/Car Model No.1201 Asset/Prefab/Wheel.prefab
+  artifactKey: Guid(15681e041c6a91e4891d5ffc30ddf367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture Car/Car Model No.1201 Asset/Prefab/Wheel.prefab using Guid(15681e041c6a91e4891d5ffc30ddf367) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b1c8027a0865e84ab54c074bc4e18d83') in 0.016906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 4.245818 seconds.
+  path: Assets/Texture Car/Car Model No.1201 Asset/Mesh/Wheel.fbx
+  artifactKey: Guid(2edc132688aefb645888fe640561c1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture Car/Car Model No.1201 Asset/Mesh/Wheel.fbx using Guid(2edc132688aefb645888fe640561c1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd0c8497c05171972e27297cff2b73177') in 0.061068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 10.214270 seconds.
+  path: Assets/Texture Car/Car Model No.1201 Asset/Mesh/Materials/blinn16.mat
+  artifactKey: Guid(49c69dfd5fde5544aa3c5e4f46b14925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture Car/Car Model No.1201 Asset/Mesh/Materials/blinn16.mat using Guid(49c69dfd5fde5544aa3c5e4f46b14925) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5fb948b5f88d03bb5328cd6a6bb2c067') in 0.009626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004141 seconds.
+  path: Assets/Texture Car/Car Model No.1201 Asset/Mesh/Materials/glass1.mat
+  artifactKey: Guid(2f8deaab3387f9345ad2743e7c25de13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture Car/Car Model No.1201 Asset/Mesh/Materials/glass1.mat using Guid(2f8deaab3387f9345ad2743e7c25de13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '96ba203ac52d957e6e6e3c09b6f68058') in 0.009177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004579 seconds.
+  path: Assets/Texture Car/Car Model No.1201 Asset/Mesh/Materials/phong2.mat
+  artifactKey: Guid(cf131dceb9cccb84298de5dfc8f16161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture Car/Car Model No.1201 Asset/Mesh/Materials/phong2.mat using Guid(cf131dceb9cccb84298de5dfc8f16161) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5b75d474fa44261d6d8a8b2e6b31d03e') in 0.010891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.246603 seconds.
+  path: Assets/Texture Car/Car Model No.1201 Asset/Material/BodyMat 1.mat
+  artifactKey: Guid(707eb7b790aaa214bb421203de68536d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture Car/Car Model No.1201 Asset/Material/BodyMat 1.mat using Guid(707eb7b790aaa214bb421203de68536d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6ffb0ff5e14116780c242d65f4a2b584') in 0.013654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Texture Car/Car Model No.1201 Asset/Material/RimMat.mat
+  artifactKey: Guid(e5a36a49f7e66f9438772de96f10495c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture Car/Car Model No.1201 Asset/Material/RimMat.mat using Guid(e5a36a49f7e66f9438772de96f10495c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '81ca5e923d8a5ed6bf90b27f1208c81c') in 0.013665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Texture Car/Car Model No.1201 Asset/Material/BodyMat 4.mat
+  artifactKey: Guid(a4e6922f48c28e645b166a6e87c82b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture Car/Car Model No.1201 Asset/Material/BodyMat 4.mat using Guid(a4e6922f48c28e645b166a6e87c82b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '33f2d7a7640e67ce9acba53bc4d03dfb') in 0.018514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Texture Car/Car Model No.1201 Asset/Material/SeamsMat 3.mat
+  artifactKey: Guid(3f47f4d644d848c4aa8dce558daa5b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture Car/Car Model No.1201 Asset/Material/SeamsMat 3.mat using Guid(3f47f4d644d848c4aa8dce558daa5b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b44ae0c16fc0dfcdc15f0f3190d43a59') in 0.013264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Texture Car/Car Model No.1201 Asset/Material/MainMat.mat
+  artifactKey: Guid(52b70203659e5654b8b1005e94b0ece3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture Car/Car Model No.1201 Asset/Material/MainMat.mat using Guid(52b70203659e5654b8b1005e94b0ece3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '68558b73fafc68591763ed355b014dd6') in 0.014621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Texture Car/Car Model No.1201 Asset/Material/SeamsMat 4.mat
+  artifactKey: Guid(022f817192f82864a956f7ccd727ef3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture Car/Car Model No.1201 Asset/Material/SeamsMat 4.mat using Guid(022f817192f82864a956f7ccd727ef3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '55a5ba745310c251201045e59344178a') in 0.012681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 32.755710 seconds.
+  path: Assets/Texture Car/Steer/Materials/Steering_Wheel_NORMAL.mat
+  artifactKey: Guid(3866d3140e36ae54f9d45bb6451c0863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture Car/Steer/Materials/Steering_Wheel_NORMAL.mat using Guid(3866d3140e36ae54f9d45bb6451c0863) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '90704912055bbf577d7f0376e2488562') in 0.045642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 15.504571 seconds.
+  path: Assets/Texture Car/Steer/textures/Steering_Wheel_NORMAL.png
+  artifactKey: Guid(80f039881698d4343b3e4026b8a0fea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture Car/Steer/textures/Steering_Wheel_NORMAL.png using Guid(80f039881698d4343b3e4026b8a0fea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ff093bf32197cd49566cd936c1bafbb6') in 0.031702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.180287 seconds.
+  path: Assets/Texture Car/Car Model No.1201 Asset/Material/Texture/MainTexture.png
+  artifactKey: Guid(f26f753c9777bd843af99543268e0b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture Car/Car Model No.1201 Asset/Material/Texture/MainTexture.png using Guid(f26f753c9777bd843af99543268e0b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '226f4c72151ba1b5657c007009eb7b51') in 0.012110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Texture Car/Car Model No.1201 Asset/Material/Texture/TireTexture.png
+  artifactKey: Guid(892c26e76fcc3534eb8b353e97440c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture Car/Car Model No.1201 Asset/Material/Texture/TireTexture.png using Guid(892c26e76fcc3534eb8b353e97440c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6d6e90cf21feb73f73f7d591f58ef725') in 0.012656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
