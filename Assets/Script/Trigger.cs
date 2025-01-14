@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class Trigger : MonoBehaviour
 {
+    public Light GreenLight;
     private Vector3 CurrentPos = new Vector3(-1.38f, 1.772f, -139.57f);
     private Vector3 CurrentAngle = new Vector3(0, 90, 0);
 
@@ -54,6 +55,10 @@ public class Trigger : MonoBehaviour
             case "Parking":
                 SetCurrentPosition(79.91f, 1.772f, -113.43f);
                 break;
+            case "Traffic":
+                if (!GreenLight.enabled)
+                    IsPlayesCollision();
+                break;  
         }
     }
 

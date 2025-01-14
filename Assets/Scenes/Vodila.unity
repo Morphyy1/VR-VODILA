@@ -12076,6 +12076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0b4ba194e772394b8f1b8a72fe200a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GreenLight: {fileID: 1202727773}
 --- !u!114 &131020175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121287,6 +121288,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[2]
       value: 
       objectReference: {fileID: 2100000, guid: 52b70203659e5654b8b1005e94b0ece3, type: 2}
+    - target: {fileID: 23907647254749766, guid: 28e6efeab80060a44aeb418ac1f92bce, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 373d3b9cccb5b4141b7feff56cbcbae1, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1528692054205108, guid: 28e6efeab80060a44aeb418ac1f92bce, type: 3}
@@ -198940,6 +198945,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0b4ba194e772394b8f1b8a72fe200a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GreenLight: {fileID: 0}
 --- !u!850595691 &1821596216
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -198948,7 +198954,7 @@ LightingSettings:
   m_PrefabAsset: {fileID: 0}
   m_Name: Settings.lighting
   serializedVersion: 6
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_EnableBakedLightmaps: 0
   m_EnableRealtimeLightmaps: 0
   m_RealtimeEnvironmentLighting: 1
