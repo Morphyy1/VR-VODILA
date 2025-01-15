@@ -1,11 +1,13 @@
 using System.Collections;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class TrafficLight : MonoBehaviour
 {
     public Renderer[] Materials;
-
     public Color[] Colors;
+
+    private int _colorCounter;
 
     void Start()
     {
@@ -16,27 +18,52 @@ public class TrafficLight : MonoBehaviour
     {
         while (true)
         {
-            var counter = 1;
+            _colorCounter = 1;
 
             foreach (var value in Materials)
             {
                 var valueMaterial = value.GetComponent<Renderer>().material;
                 var valueLight = value.GetComponent<Light>();
 
-                valueMaterial.color = Colors[counter];
-                valueLight.enabled = true;
-                
-                if (counter == 2)
+                LightOn(valueMaterial, valueLight);
+
+                if (_colorCounter == 2)
                     yield return new WaitForSeconds(2);
-                else 
+                else
                     yield return new WaitForSeconds(6);
 
-                valueMaterial.color = Colors[0];
-                valueLight.enabled = false;
-                counter++;
+                if (_colorCounter != 2)
+                    yield return BlinkLight(valueMaterial, valueLight);
+
+                LightOff(valueMaterial, valueLight);
+                _colorCounter++;
             }
-            
+
         }
+    }
+
+    private IEnumerator BlinkLight(Material valueMaterial, Light valueLight)
+    {
+        for (var i = 0; i < 3; i++)
+        {
+            LightOff(valueMaterial, valueLight);
+            yield return new WaitForSeconds(0.6f);
+
+            LightOn(valueMaterial, valueLight);
+            yield return new WaitForSeconds(0.6f);
+        }
+    }
+
+    private void LightOn(Material valueMaterial, Light valueLight)
+    {
+        valueMaterial.color = Colors[_colorCounter];
+        valueLight.enabled = true;
+    }
+
+    private void LightOff(Material valueMaterial, Light valueLight)
+    {
+        valueMaterial.color = Colors[0];
+        valueLight.enabled = false;
     }
 
 }
